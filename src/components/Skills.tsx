@@ -91,7 +91,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
             <h2 className={`text-4xl lg:text-5xl font-bold mb-4 ${
               darkMode ? 'text-white' : 'text-gray-900'
             }`}>
-              My Toolkit
+              Skills
             </h2>
             <p className={`text-xl max-w-3xl mx-auto ${
               darkMode ? 'text-gray-400' : 'text-gray-600'

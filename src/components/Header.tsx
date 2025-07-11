@@ -30,7 +30,8 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
 
   const navItems = [
     { label: 'About', id: 'about' },
-    { label: 'Work', id: 'work' },
+    { label: 'Projects', id: 'work' },
+    { label: 'Skills', id: 'skills' },
     { label: 'Contact', id: 'contact' }
   ];
 

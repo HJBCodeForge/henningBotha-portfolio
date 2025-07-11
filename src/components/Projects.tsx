@@ -175,7 +175,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects, onProjectClick, darkMode 
                   : '0 0 10px rgba(8, 145, 178, 0.1)'
               }}
             >
-              Selected Work
+              Featured Projects
             </motion.h2>
             <p className={`text-xl max-w-3xl mx-auto ${
               darkMode ? 'text-gray-400' : 'text-gray-600'
