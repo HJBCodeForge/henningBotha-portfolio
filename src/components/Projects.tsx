@@ -47,6 +47,13 @@ const Projects: React.FC<ProjectsProps> = ({ projects, onProjectClick, darkMode 
       'Stripe': 'bg-indigo-500',
       'NASA API': 'bg-orange-500',
       'Calendar API': 'bg-red-600',
+      'FastAPI': 'bg-teal-500',
+      'Python': 'bg-yellow-400',
+      'rembg': 'bg-gray-700',
+      'ONNX Runtime': 'bg-blue-600',
+      'SQLite': 'bg-blue-400',
+      'Pillow': 'bg-indigo-400',
+      'Docker': 'bg-blue-500',
     };
     return colors[tech] || 'bg-gray-500';
   };
@@ -202,7 +209,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects, onProjectClick, darkMode 
                 whileHover={{ y: -5 }}
               >
                 {/* Project Image */}
-                <div className={`h-48 overflow-hidden ${
+                <div className={`h-64 overflow-hidden ${
                   !project.image ? 'flex items-center justify-center' : ''
                 } ${
                   darkMode 

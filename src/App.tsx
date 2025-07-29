@@ -26,16 +26,17 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    id: 'hip-coffee',
-    title: 'Hip Coffee Co',
-    description: 'Full-stack coffee order management system',
-    shortDescription: 'Real-time order management system for coffee shops with role-based access and live updates.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io'],
-    challenge: 'Small coffee shops need a simple, real-time system to manage orders between cashiers and baristas, streamlining workflow and reducing wait times.',
-    role: 'Lead Full Stack Developer',
-    solution: 'Built a comprehensive MERN stack application with real-time communication using Socket.io. Implemented user authentication, role-based permissions, and live order status updates to create seamless coordination between front-of-house and kitchen staff.',
-    liveDemo: 'https://hip-coffee-demo.vercel.app',
-    github: 'https://github.com/henningbotha/hip-coffee'
+    id: 'image-bg-remover',
+    title: 'Background Remover API',
+    description: 'AI-powered REST API for removing backgrounds from images with high precision.',
+    shortDescription: 'FastAPI-based service for secure, efficient background removal using ONNX and rembg, with API key management and web demo.',
+    technologies: ['FastAPI', 'Python', 'rembg', 'ONNX Runtime', 'SQLite', 'Pillow', 'Docker'],
+    challenge: 'Enable developers and businesses to automate image background removal with high accuracy, security, and scalability, supporting multiple formats and easy integration.',
+    role: 'Lead Backend Developer & API Architect',
+    solution: 'Designed and implemented a robust REST API with token-based authentication, rate limiting, and usage tracking. Integrated ONNX-powered rembg for fast, accurate background removal. Provided a web demo, API documentation, and Docker deployment for seamless adoption.',
+    liveDemo: 'bg-remover-frontend-tau.vercel.app',
+    github: 'https://github.com/HJBCodeForge/image-bg-remover-api',
+    image: '/BackGroundRemoverAPI.jpg'
   },
   {
     id: 'happy-notes',
