@@ -34,7 +34,7 @@ const projects: Project[] = [
     challenge: 'Enable developers and businesses to automate image background removal with high accuracy, security, and scalability, supporting multiple formats and easy integration.',
     role: 'Lead Backend Developer & API Architect',
     solution: 'Designed and implemented a robust REST API with token-based authentication, rate limiting, and usage tracking. Integrated ONNX-powered rembg for fast, accurate background removal. Provided a web demo, API documentation, and Docker deployment for seamless adoption.',
-    liveDemo: 'https://web-production-faaf.up.railway.app',
+    liveDemo: 'image-bg-remover-api-env.eba-xtmupx6n.us-west-2.elasticbeanstalk.com',
     github: 'https://github.com/HJBCodeForge/image-bg-remover-api',
     image: '/BackGroundRemoverAPI.jpg'
   },
