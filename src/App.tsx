@@ -39,16 +39,17 @@ const projects: Project[] = [
     image: '/BackGroundRemoverAPI.jpg'
   },
   {
-    id: 'happy-notes',
-    title: 'Happy Notes',
-    description: 'Full-stack note-taking app with user profiles',
-    shortDescription: 'Personal note-taking application with full CRUD functionality and user authentication.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT'],
-    challenge: 'Users need a persistent, personal, and simple note-taking application with full CRUD functionality that maintains their data securely across sessions.',
-    role: 'Full Stack Developer',
-    solution: 'Developed a complete MERN stack application with JWT authentication, allowing users to create, read, update, and delete notes. Implemented secure user registration and login with password hashing and session management.',
-    liveDemo: 'https://happy-notes-demo.vercel.app',
-    github: 'https://github.com/henningbotha/happy-notes'
+    id: 'patient-reminder-api',
+    title: 'PatientReminder API',
+    description: 'Lightweight ASP.NET Core Web API for scheduling patient appointments and sending automated reminders.',
+    shortDescription: 'Schedule appointments and automate reminders with .NET 8, EF Core (SQLite), and Docker — deployed on AWS Elastic Beanstalk.',
+    technologies: ['.NET 8', 'ASP.NET Core', 'Entity Framework Core', 'SQLite', 'OpenAPI', 'Docker', 'AWS Elastic Beanstalk'],
+    challenge: 'Provide a simple, reliable way for clinics to schedule appointments and automate reminders without complex infrastructure.',
+    role: 'Backend Developer',
+    solution: 'Built a clean, containerized Web API with a background reminder service, SQLite persistence, and OpenAPI docs. Deployed as a single-container app on AWS Elastic Beanstalk for straightforward cloud hosting.',
+    liveDemo: 'http://patientreminderapi.us-east-2.elasticbeanstalk.com/swagger/index.html',
+    github: 'https://github.com/HJBCodeForge/PatientReminder',
+    image: '/patientReminderApi.png'
   },
   {
     id: 'stellarvista',

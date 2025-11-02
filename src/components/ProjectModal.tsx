@@ -30,6 +30,11 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, darkMode 
       'SQLite': 'bg-blue-400',
       'Pillow': 'bg-indigo-400',
       'Docker': 'bg-blue-500',
+      '.NET 8': 'bg-purple-600',
+      'ASP.NET Core': 'bg-purple-700',
+      'Entity Framework Core': 'bg-emerald-600',
+      'OpenAPI': 'bg-lime-600',
+      'AWS Elastic Beanstalk': 'bg-orange-500',
     };
     return colors[tech] || 'bg-gray-500';
   };
