@@ -43,7 +43,7 @@ const projects: Project[] = [
     title: 'PatientReminder API',
     description: 'Lightweight ASP.NET Core Web API for scheduling patient appointments and sending automated reminders.',
     shortDescription: 'Schedule appointments and automate reminders with .NET 8, EF Core (SQLite), and Docker — deployed on AWS Elastic Beanstalk.',
-    technologies: ['.NET 8', 'ASP.NET Core', 'Entity Framework Core', 'SQLite', 'OpenAPI', 'Docker', 'AWS Elastic Beanstalk'],
+    technologies: ['C#', '.NET 8', 'SQLite', 'AWS Elastic Beanstalk', 'Docker'],
     challenge: 'Provide a simple, reliable way for clinics to schedule appointments and automate reminders without complex infrastructure.',
     role: 'Backend Developer',
     solution: 'Built a clean, containerized Web API with a background reminder service, SQLite persistence, and OpenAPI docs. Deployed as a single-container app on AWS Elastic Beanstalk for straightforward cloud hosting.',

@@ -39,7 +39,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
         { name: "CSS", icon: "🎨" },
         { name: "JavaScript", icon: "⚡" },
         { name: "React", icon: "⚛️" },
-        { name: "React Native", icon: "📱" },
+        // removed React Native per request
       ]
     },
     {
@@ -49,7 +49,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
         { name: "Node.js", icon: "🟢" },
         { name: "Express", icon: "🚂" },
         { name: "RESTful APIs", icon: "🔌" },
-        { name: "Authentication", icon: "🔐" },
+        { name: "C#", icon: "#️⃣" },
       ]
     },
     {
@@ -58,7 +58,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
       skills: [
         { name: "MongoDB", icon: "🍃" },
         { name: "PostgreSQL", icon: "🐘" },
-        { name: "Database Design", icon: "🗄️" },
+        { name: "SQLite", icon: "🗄️" },
       ]
     },
     {
@@ -68,7 +68,6 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
         { name: "OOP", icon: "🏗️" },
         { name: "Web Accessibility", icon: "♿" },
         { name: "Agile/SCRUM", icon: "🔄" },
-        { name: "SEO", icon: "🔍" },
         { name: "Git/GitHub", icon: "📦" },
         { name: "VS Code", icon: "💻" },
       ]
