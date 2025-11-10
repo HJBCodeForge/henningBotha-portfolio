@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/henningbotha',
+      url: 'https://github.com/HJBCodeForge',
       icon: <Github className="w-5 h-5" />,
     },
     {
@@ -21,7 +21,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/henningbotha',
+      url: 'https://x.com/HJBCodeForge',
       icon: <Twitter className="w-5 h-5" />,
     }
   ];
