@@ -33,7 +33,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/henningbotha',
+      url: 'https://github.com/HJBCodeForge',
       icon: <Github className="w-6 h-6" />,
       color: 'hover:text-gray-400'
     },
@@ -45,7 +45,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/henningbotha',
+      url: 'https://x.com/HJBCodeForge',
       icon: <Twitter className="w-6 h-6" />,
       color: 'hover:text-blue-400'
     }
