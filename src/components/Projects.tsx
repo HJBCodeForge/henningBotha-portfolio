@@ -313,7 +313,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects, onProjectClick, darkMode 
               Want to see more? Check out my GitHub for additional projects and contributions.
             </p>
             <motion.a
-              href="https://github.com/henningbotha"
+              href="https://github.com/HJBCodeForge"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center gap-2 px-6 py-3 rounded-lg transition-colors border ${
